@@ -26,10 +26,13 @@ body {
   background-attachment: fixed;
 }
 #about {
-  height: 100%;
+  /*height: 100%;*/
+}
+#img-fix {
+  max-width: 70%;
 }
 #contact {
-  height: 100%;
+  /*height: 100%;*/
 }
 .intro h1,
 .intro h2,
@@ -112,13 +115,17 @@ section {
 .project-div1,
 .project-div2,
 .project-div3, 
-.project-div4 {
+.project-div4,
+.project-div5,
+.project-div6 {
   position: relative;
 }
 .project-image1,
 .project-image2,
 .project-image3,
-.project-image4 {
+.project-image4,
+.project-image5,
+.project-image6 {
   opacity: 1;
   display: block;
   transition: 0.5s;
@@ -126,7 +133,9 @@ section {
 .project-middle1,
 .project-middle2, 
 .project-middle3, 
-.project-middle4 { 
+.project-middle4,
+.project-middle5,
+.project-middle6 { 
   transition: 0.5s;
   opacity: 0;
   position: absolute;
@@ -143,13 +152,17 @@ section {
 .project-div1:hover .project-image1,
 .project-div2:hover .project-image2, 
 .project-div3:hover .project-image3,
-.project-div4:hover .project-image4 {
+.project-div4:hover .project-image4,
+.project-div5:hover .project-image5,
+.project-div6:hover .project-image6 {
   opacity: 0.3;
 }
 .project-div1:hover .project-middle1,
 .project-div2:hover .project-middle2,
 .project-div3:hover .project-middle3,
-.project-div4:hover .project-middle4 {
+.project-div4:hover .project-middle4,
+.project-div5:hover .project-middle5,
+.project-div6:hover .project-middle6 {
   opacity: 1;
 }
 .project-style h4 {
